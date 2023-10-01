@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.7rem;  
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+header ul{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.container_principal{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logo_parceiro{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+.logo_tomate_ninja{
+    margin: 0 15px;
+}
+
+.parte_img_times img{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+.sub_titulo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leilao, .certificado, .doc{
+    margin: auto;
+    width: 80%;
+    border: solid blue;
+}
+
+.leilao h3, .certificado h3, .doc h3{
+    margin: 10px;
+    color: blue;
+}
+
+.mkt_de_aproximacao{
+    margin-top: 25px;
+}
+
+.mkt_de_aproximacao h2{
+    margin: 15px 0px;
+}
+
+.marca_times img{
+    margin: 30px 0;
+    
+}
+
+.grafico img, .camisetas img, .nft_img img{
+    width: 100%;
+    margin: 15px 0px;  
+}
+
+.camiseta_nft  p, .parte_pixbet p, .mkt_de_aproximacao p{
+    margin: auto;
+    width: 80%;
+}
+
+.img_footer{
+    color: black;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('https://orebate.com.br/wp-content/uploads/2023/04/Apostas-esportivas-uma-grande-fonte-de-receita-mal-aproveitada-pelo-governo-brasileiro.jpg');
+    background-size: cover;
+}
+
+.img_footer ul{
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_footer ul li{
+    margin:5px 0;
+    text-decoration: none;
+}
+
+.img_footer ul li a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+.copy p{
+    width: 90%;
+    margin: auto;
+    text-align:center ;
+}
+
