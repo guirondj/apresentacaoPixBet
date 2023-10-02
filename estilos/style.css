@@ -20,7 +20,7 @@ h3{
 }
 
 p{
-    margin: 10px 0px;
+    margin: 10px;
     font-size: 1.2rem;
 }
 
@@ -61,10 +61,7 @@ header ul li{
     flex-direction: row;
     align-items:center;
     justify-content: center;
-}
-
-.logo_tomate_ninja{
-    margin: 0 15px;
+    gap: 25px;
 }
 
 .parte_img_times img{
