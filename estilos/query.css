@@ -1,0 +1,156 @@
+@media screen and ( min-width: 620px) {
+
+    header{
+        margin: auto;
+        height: 90px;
+    }
+
+    header ul li{
+        font-size: 1.5rem;
+    }
+
+    .container_principal{
+        width: 720px;
+        margin: auto;
+    }
+
+    .logo_parceiro{
+        gap: 50px;
+    }
+
+    .logo_tomate_ninja img, .logo_pixbet img{
+        width: 250px;
+        height: 90px;
+    }
+
+    .parte_img_times{
+        width: 720px;
+        margin: auto;
+    }
+
+    .parte_servicos{
+        width: 720px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 60px 0;
+    }
+
+    .sub_titulo{
+        width: 50%;
+    }
+
+    .servicos{
+        width: 50%;
+    }
+
+    .leilao, .certificado, .doc{
+        width: 80%;
+    }
+
+    .mkt_de_aproximacao{
+        width: 720px;
+    }
+
+    .conteudo_mkt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .tex_mkt{
+        width: 50%;
+        
+    }
+
+    .parte2{
+        width: 720px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parte_pixbet{
+        width: 520px;
+    }
+
+    .parte_pixbet img{
+        margin: auto;
+        width: 50%;
+    }
+
+    .parte_pixbet div{
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .grafico{
+        width: 50%;
+    }
+
+    .camiseta_nft{
+        margin: 25px 0;
+        width: 720px;
+    }
+
+    .camisetas{
+        margin: 25px 0;
+        display: flex;
+        flex-direction: row
+    }
+
+    .nft_img{
+        margin: 25px 0;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and ( min-width: 930px) and (max-width:1336px){
+    header{
+        margin: auto;
+        height: 90px;
+    }
+
+    header ul{
+        margin: auto;
+    }
+
+    header ul li{
+        font-size: 2.5rem;
+    }
+
+    header ul li a:hover{
+        transition: 0.8s;
+        color: rgba(255, 0, 0, 0.759);
+    }
+
+    .container_principal{
+        width: 1336px;
+        margin: auto;
+    }
+
+    .parte_1{
+        margin: auto;
+    }
+
+    .descricao{
+        margin:auto ;
+    }
+
+    .logo_parceiro{
+        gap: 150px;
+    }
+
+    .logo_tomate_ninja img, .logo_pixbet img{
+        width: 350px;
+        height: 160px;
+    }
+
+    .parte_img_times{
+        width:930px;
+        margin: auto;
+    }
+}
